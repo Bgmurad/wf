@@ -5,12 +5,12 @@ require("include/person.php");
 session_start();
 $action = isset($_GET['action']) ? $_GET['action'] : "";
 $user = isset($_SESSION['user']) ? $_SESSION['user'] : "";
-/*
+
  if ($action != "login" && $action != "logout" && !$user) {
    login();
      exit;
      }
-*/
+
  switch ( $action ) {
   case 'login':
       login();
