@@ -1,3 +1,8 @@
+/*
+* Контроллер, обработчик  запросов пользователя. По умолчанию октрывается страничка с приветствием и запросом логина и пароля.
+* Для не зарегистрированных  пользователей, отображается ссылка на регистрационную форму.
+*/
+
 <?php
 require ("config.php");
 require("include/person.php");
@@ -60,7 +65,7 @@ $user = isset($_SESSION['user']) ? $_SESSION['user'] : "";
 
  function logout() {
     unset( $_SESSION['user'] );
-    header( "Location: index.php" ); //login();
+    header( "Location: index.php" );
     exit;
   }
   
