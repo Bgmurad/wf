@@ -95,10 +95,6 @@
 	     <div>
 	          <input type="submit" name="logout" value="Выйти" />
 	     </div>
-             
-              <div>
-                 <p>Еще не зарегистрированы у нас на сайте? <br>  Перейдите по <a href="view/register.php"> ссылке </a> для регистрации </p>
-            </div>
         </div>
     <div>
     </div>

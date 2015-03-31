@@ -8,7 +8,6 @@ define("DB_NAME", "webmaster");
 define("DB_USERNAME", "webmaster");
 define("DB_PASSWORD", "123456");
 define("DB_CHARSET","UTF8");
-define("HOMEPAGE_NUM_ARTICLES", 5);
 define("publickey","39y4yhfherjkghl");
 
 //require("person.php");
